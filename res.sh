@@ -1,17 +1,5 @@
 #!/bin/bash
-# string1="qwerty"
-# string2="qwertzaaa"
-# # diff  <(echo "$string1" ) <(echo "$string2")
-# #
-# #
-# # mkfifo ./p
-# # diff - p <<< "$string1" & echo "$string2" > p
-#
-#
-# awk '{gsub(".","&\n");printf "%s",$0}' <(echo "$string1") >f1a
-# awk '{gsub(".","&\n");printf "%s",$0}' <(echo "$string2") >f2a
-# diff -y f1a f2a  #will output both lines and show differences
-#
+
 rm file.txt
 rm seq_a.txt
 rm seq_b.txt
